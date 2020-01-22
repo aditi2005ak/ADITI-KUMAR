@@ -1,0 +1,9 @@
+lst = [-29, 50, 12, 35]
+if (lst[0] > lst[1]) and (lst[0] > lst[2]) and (lst[0] > lst[3]):
+    print(lst[0])
+elif (lst[1] > lst[0]) and (lst[1] > lst[2]) and (lst[1] > lst[3]):
+    print(lst[1])
+elif (lst[2] > lst[1]) and (lst[2] > lst[0]) and (lst[2] > lst[3]):
+    print(lst[2])
+else:
+    print(lst[3])
